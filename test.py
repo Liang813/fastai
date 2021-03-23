@@ -15,3 +15,4 @@ from fastai.text import *
 
 # # check whether losses match
 # assert np.all(np.array(calc_loss) - np.array(reported_loss[rng]) < 0.0001)
+print("success")
